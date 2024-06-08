@@ -39,9 +39,9 @@ def parse_results(html):
             continue 
 
     return results
-# Save the results to 'results.csv'
-def save_to_csv(results):
-    with open('bedrijven.csv', mode='a', newline='', encoding='utf-8') as file:
+# Save the results to csv file
+def save_to_csv(results, query):
+    with open(f'{query}.csv', mode='a', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=['title', 'link', 'snippet'])
         writer.writeheader()
         for result in results:
@@ -83,7 +83,7 @@ def main():
 
     # Wait for the user to manually handle the cookie consent
     # input("Please handle the cookie consent and press Enter to continue...")
-    time.sleep(5)
+    time.sleep(5) # you can use the previous line to wait until accept the cookie
 
     # Scroll and collect results
     results = scroll_and_collect_results(driver)
