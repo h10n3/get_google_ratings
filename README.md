@@ -4,7 +4,8 @@ Python project for getting google ratings.
 When you run the script and give the search term, chromedriver will be opened, 
 It waits 5 seconds in case cookie approval is required,
 
-![image](https://github.com/h10n3/get_google_ratings/assets/99500478/6943da74-96bf-447f-8669-1be11cf0e752)
+![image](https://github.com/h10n3/get_google_ratings/assets/99500478/c99b981c-82aa-4ba0-9dcb-a547d0eb9024)
+
 
 After acceptance, it scrolls all the way to the bottom of the page and checks the possible 'more results' button,
 If exists clicks it until there is no more button.
@@ -38,6 +39,7 @@ pip install -U requests beautifulsoup4 selenium webdriver-manager csv
 
 I added a win64 chromedriver but always check the right [chromedriver version](https://googlechromelabs.github.io/chrome-for-testing/) for your own.
 
+
 # Usage
 
 Run the script:
@@ -49,4 +51,7 @@ What do you want to search?
 
 Accept the coookies and wait until finish.
 
+![image](https://github.com/h10n3/get_google_ratings/assets/99500478/0d632381-df2c-4803-b896-b7891cfd920d)
 
+
+The resuls will be saved to a ```csv``` file with the name of queried term in the same directory.
