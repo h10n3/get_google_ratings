@@ -7,15 +7,17 @@ When you run the script and provide the search term, Chromedriver will open and 
 
 The script looks for company name, website, and rating:
 
-![image](https://github.com/h10n3/get_google_ratings/assets/99500478/70733644-efa3-4d0b-b1bd-63fb6f5387f2)
+![image](https://github.com/h10n3/get_google_ratings/assets/99500478/611ff6d5-5fa5-4264-9867-f4d13ff7749f)
+
 
 It collects all the necessary information and includes it if the rating is 4 or less:
 
-![image](https://github.com/h10n3/get_google_ratings/assets/99500478/9e2dba5e-151c-4f36-a155-1546c010bb99)
+![image](https://github.com/h10n3/get_google_ratings/assets/99500478/b4f2ff09-7e16-4514-ad74-89bfd5d9e90c)
+
 
 Finally, it saves the results to a ```csv``` file in the same directory:
 
-![image](https://github.com/h10n3/get_google_ratings/assets/99500478/56fdc0c8-d9e1-477e-82a7-dfb064f537e7)
+![image](https://github.com/h10n3/get_google_ratings/assets/99500478/c887ef06-440e-4128-b730-a9fb26b37f1c)
 
 
 # Install
